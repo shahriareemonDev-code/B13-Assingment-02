@@ -1,14 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
     <title>TechWave</title>
 </head>
-<body>
-    <header>
-        <nav>
-        </nav>
-    </header>
+
+<body class="font-inter bg-[#1A0B2E]">
+    <main>
+            <header class="bg-[#1A0B2E] max-w-[1600px] mx-auto">
+                <nav class="flex justify-between items-center py-4 border-1">
+                    <h1 class="text text-white font-bold">Tech <span class=" text wave font-bold text-linear-65 from-purple-500 to-pink-500">Wave</span>
+                    </h1>
+                    <ul class="text-white flex gap-6  ">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Episodes</a></li>
+                        <li><a href="">Host</a></li>
+                    </ul>
+                      <button class="nav-btn">Subscribe  <span class="flex items-center ml-1"><img src="./assets/Vector.png" alt=""></span></button>
+                </nav>
+            </header>
+               
+            <!-- banner -->
+            <section>
+                <div class="hero-parent">
+                    <div class="hero-circle flex justify-center">
+                        <img src="./assets/hero-circle.png" alt="">
+                    </div>
+                    <div class="hero-icon flex justify-center">
+                         <img src="./assets/microphone.png" alt="">
+                    </div>
+                </div>
+                <!-- Techwave content section  -->
+            
+                <div class="text-center mt-[40px] mb-[24px]">
+                    <h1 class="text-5xl text-white mb-[8px]">TechWave</h1>
+                    <p class="text-white">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                </div>
+
+                 <div class="flex justify-center pb-[101px]">
+                      <div class="mr-2">
+                        <button class="text-white flex items-center gap-2 border-2 rounded-lg px-5 py-3"> <img src="./assets/spotify.png" alt="">Listen On Spotify</button>
+                      </div>
+                      <div>
+                        <button class="text-white flex  items-center px-4 py-3 border-2 rounded-lg border-[#00FF88] gap-2"><img src="./assets/clarity_email-line.png" alt=""> Subscribe</button>
+                      </div>
+                </div>
+            </section>
+
+
+           <!-- About section -->
+               <section class="pt-[50px] pb-[120px] px-[200px]">
+                <div class="max-w-[1200px] mx-auto">
+                    <h1 class="text-white text-5xl font-bold text-center pt-[50px] mb-4">About The Podcast</h1>
+                    <p class="text-white text-center">TechWave is your go-to podcast for staying ahead in the fast-paced  world of technology. text-center">
+                     We break down complex topics into digestible insights, explore productivity strategies that actually work,
+                     and share stories of personal growth from industry leaders.
+                    </p>
+                    <br>
+                    <br>
+                    <p class="text-white text-center mb-10"> Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+                </div>
+
+                   <div class="text-green-400 flex justify-between mt-10 gap-20 text-5xl border-t-1 border-white">
+                     <div class="mt-10 ">
+                        <h1>150K+</h1>
+                        <p class="text-white text-base">MONTHLY LISTENERS</p>
+                     </div>
+                     <div class="mt-10">
+                        <h1>200+</h1>
+                        <p class="text-white text-base">EPISODES PUBLISHED</p>
+                     </div>
+                     <div class="mt-10">
+                        <h1>4.9★</h1>
+                        <p class="text-white text-base">AVERAGE RATING</p>
+                     </div>
+                     <div class="mt-10">
+                        <h1>50+</h1>
+                        <p class="text-white text-base">INDUSTRY EXPERTS</p>
+                     </div>
+                   </div>
+               </section>
+            
+
+            <!-- grid-card -->
+            <!-- <section>
+                <div class="flex  max-w-[1260px] mx-auto gap-10 p-8 md:flex-row flex-col">
+                    <div class="premium flex-grow-1 bg-cyan-400 rounded">premium</div>
+                    <div class="two-features flex-grow-3 flex flex-col gap-5">
+                        <div class="mobile bg-red-700 h-[180px] rounded">mobil card</div>
+                        <div class="global bg-red-100 h-[180px] rounded">global card</div>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="max-w-[1600px] mx-auto">
+                
+                    <h1 class="text-white text-center text-4xl mb-[40px]">Why Choose TechWave</h1>
+
+                <div class="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+                    <div class="px-[40px] py-[40px] rounded-[40px] bg-purple-950 col-span-1 row-span-2 mt-[16px] mb-[16px]">
+                        <img class="px-[5px] py-[5px] mb-[16px]" src="./assets/headphone.png" alt="">
+                        <h1 class=>Premium Audio Quality</h1>
+                        <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                    </div>
+                    <div class=" bg-purple-950 px-[40px] py-[40px] rounded-[40px] col-span-2 row-span-1">
+                        <img class="px-[10px] py-[10px] mb-[16px]" src="./assets/device.png" alt="">
+                        <h1>Mobile Friendly</h1>
+                        <p>Listen on the go with seamless mobile experience and offline downloads.</p>
+                    </div>
+                     <div class=" bg-purple-950 px-[40px] py-[40px] rounded-[40px] col-span-2 row-span-1">
+                        <img class="px-[3px] py-[3px] mb-[16px]" src="./assets/location.png" alt="">
+                        <h1>Global Community</h1>
+                        <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                    </div>
+                    <div>
+                        <h1>4</h1>
+                    </div>
+                    <div>
+                        <h1>5</h1>
+                    </div>
+                    <div>
+                        <h1>6</h1>
+                    </div>
+                    <div>
+                        <h1>7</h1>
+                    </div>
+                    <div>
+                        <h1>8</h1>
+                    </div>
+                    <div>
+                        <h1>9</h1>
+                    </div>
+                </div>
+            </section>
+    </main>
 </body>
+
 </html>
