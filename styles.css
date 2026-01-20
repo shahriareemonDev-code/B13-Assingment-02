@@ -54,7 +54,7 @@
 }
 
 .hero-icon {
-  /* animation: moving 2s ease-in-out infinite alternate; */
+  animation: moving 2s ease-in-out infinite alternate;
   position: absolute;
   top: 50%;
   left: 50%;
