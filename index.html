@@ -9,23 +9,28 @@
     <title>TechWave</title>
 </head>
 
-<body class="font-inter bg-[#1A0B2E]">
+<body class="font-inter bg-[#140924]">
     <main>
         <header class="bg-[#1A0B2E] max-w-[1600px] mx-auto px-[200px]">
-            <nav class="flex justify-between items-center text-center py-4 border-1">
+            <nav class="flex justify-between items-center text-center py-4 ">
                 <img src="./assets/TechWave.png" alt="">
-                <ul class="text-white flex gap-6  ">
+                <ul class="hide  text-white flex gap-6">
                     <li><a href="">About</a></li>
                     <li><a href="">Episodes</a></li>
                     <li><a href="">Host</a></li>
                 </ul>
-                <button class="nav-btn rounded-4xl">Subscribe <span class="flex items-center ml-1"><img
-                            src="./assets/Vector.png" alt=""></span></button>
+                <div>
+                    
+                </div>
+                <button class="hide  nav-btn rounded-4xl">Subscribe <span class="flex   items-center ml-1"><img
+                            src="./assets/Vector.png" alt=""></span>
+                </button>
+                <img class="menu max-w-10 " src="./assets/menu.png" alt="">
             </nav>
         </header>
 
         <!-- banner -->
-        <section>
+        <section class="max-w-[1600px] mx-auto ">
             <div class="hero-parent pt-[50px] grid grid-cols-1">
                 <div class="hero-circle">
                     <img src="./assets/hero-circle.png" alt="">
@@ -34,24 +39,24 @@
                     <img src="./assets/microphone.png" alt="">
                     <button class="new-btn bg-green-500">NEW</button>
                 </div>
-            </div>
-            <!-- Techwave content section  -->
-
-            <div class="text-center mt-[40px] mb-[24px]">
-                <h1 class="text-5xl text-white font-bold mb-[8px]">TechWave</h1>
-                <p class="text-white">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-            </div>
-
-            <div class="flex justify-center pb-[101px]">
-                <div class="mr-2">
-                    <button class="text-white flex items-center gap-2 border-2 rounded-[100px] px-5 py-3"> <img
-                            src="./assets/spotify.png" alt="">Listen On Spotify</button>
+                <div class="text-center mt-[40px] mb-[24px] relative top-[-90px]">
+                    <h1 class="text-5xl text-white font-bold mb-2">TechWave</h1>
+                    <p class="text-white">Your daily dose of tech insights, productivity hacks, and personal growth</p>
                 </div>
-                <div>
-                    <button
-                        class="text-green-400 flex  items-center px-4 py-3 border-2 rounded-[100px] border-[#00ff6a] gap-2"><img
-                            src="./assets/clarity_email-line.png" alt=""> Subscribe</button>
+                <div class="flex justify-center pb-[101px] relative top-[-80px]">
+                    <div class="mr-2">
+                        <button class="btn-listen text-white flex items-center gap-2 border-2 rounded-[100px] px-5 py-3"> 
+                            <img src="./assets/spotify.png" alt="">Listen On Spotify</button>
+                    </div>
+                    <div>
+                        <button
+                            class="text-green-400 flex  items-center px-4 py-3 border-2 rounded-[100px] border-[#00ff6a] gap-2"><img
+                                src="./assets/clarity_email-line.png" alt=""> Subscribe</button>
+                    </div>
                 </div>
+                <!-- Techwave content section  -->
+
+
 
             </div>
         </section>
@@ -121,18 +126,20 @@
                         engineering. Every episode is mastered for optimal listening across all devices and platforms.
                     </p>
                 </div>
-                <div class="bg-[rgba(53,17,101,0.4)] px-[40px] py-[40px] rounded-[40px] col-span-2 row-span-1">
+                <div
+                    class="bg-[rgba(53,17,101,0.4)] px-[40px] py-[40px] rounded-[40px] col-span-2 row-span-1 hover:bg-purple-950 ">
                     <img class="px-[10px] py-[10px] mb-[16px]" src="./assets/device.png" alt="">
                     <h1 class="text-2xl mb-[16px]">Mobile Friendly</h1>
                     <p>Listen on the go with seamless mobile experience and offline downloads.</p>
                 </div>
-                <div class=" bg-[rgba(53,17,101,0.4)] px-[40px] py-[40px] rounded-[40px] col-span-2 row-span-1">
+                <div
+                    class=" bg-[rgba(53,17,101,0.4)] px-[40px] py-[40px] rounded-[40px] col-span-2 row-span-1 hover:bg-purple-950 ">
                     <img class="px-[3px] py-[3px] mb-[16px]" src="./assets/location.png" alt="">
                     <h1 class="text-2xl mb-[16px]">Global Community</h1>
                     <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
                 </div>
                 <div
-                    class=" bg-[rgba(53,17,101,0.4)] px-[40px] py-[40px] rounded-[40px] col-span-2 row-span-1 items-center">
+                    class=" bg-[rgba(53,17,101,0.4)] px-[40px] py-[40px] rounded-[40px] col-span-2 row-span-1 items-center hover:bg-purple-950 ">
                     <img class="px-[3px] py-[3px] mb-[16px]" src="./assets/Icon (Stroke).png" alt="">
                     <h1 class="text-2xl mb-[16px]">Exclusive Interviews</h1>
                     <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host
@@ -140,7 +147,7 @@
                         failures, and success strategies.</p>
                 </div>
                 <div
-                    class=" bg-[rgba(53,17,101,0.4)] px-[40px] py-[40px] rounded-[40px] col-span-1 row-span-1 items-center">
+                    class=" bg-[rgba(53,17,101,0.4)] px-[40px] py-[40px] rounded-[40px] col-span-1 row-span-1 items-center hover:bg-purple-950 ">
                     <img class="px-[3px] py-[3px] mb-[16px]" src="./assets/resource.png" alt="">
                     <h1 class="text-2xl mb-[16px]">Rich Resources</h1>
                     <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
@@ -158,127 +165,135 @@
             <div class="div-container gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div>
                     <div class="max-w-[360px] flex flex-col">
-                    <iframe class="rounded-t-3xl" width="380" height="215"
-                        src="https://www.youtube.com/embed/tQHAwV9B8hQ?si=Yd9csTBVCkr8cj4V" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="rounded-t-3xl" width="380" height="215"
+                            src="https://www.youtube.com/embed/tQHAwV9B8hQ?si=Yd9csTBVCkr8cj4V"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    </div>
+
+                    <div class="px-6 py-6 flex flex-col max-w-[380px] bg-purple-950 rounded-b-3xl">
+                        <h1 class="text-white text-2xl font-bold mb-4">The Furute of AI in Everyday Life</h1>
+                        <p class="text-white mb-4">Exploring how artificial intelligence is transforming our daily
+                            routines and
+                            what to expect in the next decade.</p>
+                        <div class="flex gap-2">
+                            <img src="./assets/clock.png" alt=""> <span class="text-white">35min</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="px-6 py-6 flex flex-col max-w-[380px] bg-purple-950 rounded-b-3xl">
-                    <h1 class="text-white text-2xl font-bold mb-4">The Furute of AI in Everyday Life</h1>
-                    <p class="text-white mb-4">Exploring how artificial intelligence is transforming our daily routines and
-                        what to expect in the next decade.</p>
-                    <div class="flex gap-2">
-                        <img src="./assets/clock.png" alt=""> <span class="text-white">35min</span>
+                <div>
+                    <div class="max-w-[360px] flex flex-col">
+                        <iframe class="rounded-t-3xl" width="380" height="215"
+                            src="https://www.youtube.com/embed/nRuai8aXeHQ?si=WdAVv_2w5XW1pvbs"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="px-6 py-6 max-w-[380px] bg-purple-950 rounded-b-3xl">
+                        <h1 class="text-white text-2xl font-bold mb-4">Building Better Habits for Remote Work</h1>
+                        <p class="text-white mb-4">Exploring how artificial intelligence is transforming our daily
+                            routines and
+                            what to expect in the next decade.</p>
+                        <div class="flex gap-2">
+                            <img src="./assets/clock.png" alt=""> <span class="text-white">31min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="max-w-[360px]">
+                        <iframe class="rounded-t-3xl" width="380" height="215"
+                            src="https://www.youtube.com/embed/n0JG2QbIkTY?si=3S4F_e8RJsHEjVID"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+                    </div>
+                    <div class="px-6 py-6 max-w-[380px] bg-purple-950 rounded-b-3xl">
+                        <h1 class="text-white text-2xl font-bold mb-4">The Furute of AI in Everyday Life</h1>
+                        <p class="text-white mb-4">Exploring how artificial intelligence is transforming our daily
+                            routines and
+                            what to expect in the next decade.</p>
+                        <div class="flex mt-4 gap-2">
+                            <img src="./assets/clock.png" alt=""> <span class="text-white">15min</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-               <div>
-                  <div class="max-w-[360px] flex flex-col">
-                    <iframe class="rounded-t-3xl" width="380" height="215"
-                        src="https://www.youtube.com/embed/nRuai8aXeHQ?si=WdAVv_2w5XW1pvbs" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-
-                <div class="px-6 py-6 max-w-[380px] bg-purple-950 rounded-b-3xl">
-                    <h1 class="text-white text-2xl font-bold mb-4">Building Better Habits for Remote Work</h1>
-                    <p class="text-white mb-4">Exploring how artificial intelligence is transforming our daily routines and
-                        what to expect in the next decade.</p>
-                    <div class="flex gap-2">
-                        <img src="./assets/clock.png" alt=""> <span class="text-white">31min</span>
-                    </div>
-                </div>
-               </div>
-
-               <div>
-                 <div class="max-w-[360px]">
-                    <iframe class="rounded-t-3xl" width="380" height="215"
-                        src="https://www.youtube.com/embed/n0JG2QbIkTY?si=3S4F_e8RJsHEjVID" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
-                </div>
-                <div class="px-6 py-6 max-w-[380px] bg-purple-950 rounded-b-3xl">
-                    <h1 class="text-white text-2xl font-bold mb-4">The Furute of AI in Everyday Life</h1>
-                    <p class="text-white mb-4">Exploring how artificial intelligence is transforming our daily routines and
-                        what to expect in the next decade.</p>
-                    <div class="flex mt-4 gap-2">
-                        <img src="./assets/clock.png" alt=""> <span class="text-white">15min</span>
-                    </div>
-                   </div>
-            </div>
-            </div>
-        
         </section>
 
 
         <!-- Meet the host section -->
 
-    <section class="max-w-[1600px] mx-auto" >
-        <div class="px-[200px] py-[120px]">
-             <div>
-              <h1 class="text-white font-bold text-5xl text-center pb-[40px]"> Meet The Host</h1>
-             </div>
-
-            <div class="text-white bg-purple-950 rounded-3xl flex py-12">
-                <div class="px-[40px] py-[40px]">
-                    <img src="./assets/host.png" alt="">
+        <section class="max-w-[1600px] mx-auto">
+            <div class="px-[200px] py-[120px]">
+                <div>
+                    <h1 class="text-white font-bold text-5xl text-center pb-[40px]"> Meet The Host</h1>
                 </div>
-                 <div>
-                    <h1 class="text-[32px] font-bold mb-4">Alex Kumar</h1>
-                    <p class="pr-[40px]">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
 
-                     <div class="mt-4"> 
-                        <img src="./assets/Frame 2087326343.png" alt="">
-                     </div>
+                <div class="text-white bg-purple-950 rounded-3xl flex py-12">
+                    <div class="px-[40px] py-[40px]">
+                        <img src="./assets/host.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-[32px] font-bold mb-4">Alex Kumar</h1>
+                        <p class="pr-[40px]">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been
+                            in the tech industry for over 10 years, working with startups and Fortune 500 companies.
+                            Through TechWave, Alex shares insights from industry leaders and practical advice for anyone
+                            looking to grow in tech.</p>
 
-                 </div>
-         </div>
-     </div>
+                        <div class="mt-4">
+                            <img src="./assets/Frame 2087326343.png" alt="">
+                        </div>
 
-    </section>
+                    </div>
+                </div>
+            </div>
 
-      <!-- Footer-section -->
+        </section>
 
-      <footer class="max-w-[1600px] mx-auto">
-        <div class="bg">
-             <img src="./assets/footer-bg.png" alt="">
-        </div>
-        <div class="  flex justify-center items-center relative top-[-250px]">
-              <img src="./assets/TechWave.png" alt="">
-        </div>
+        <!-- Footer-section -->
 
-         <div class="flex justify-center gap-6 relative top-[-230px]">
+        <footer class="max-w-[1600px] mx-auto">
+            <div class="bg">
+                <img src="./assets/footer-bg.png" alt="">
+                 
+            </div>
+            <div class="  flex justify-center items-center relative top-[-250px]">
+                <img src="./assets/TechWave.png" alt="">
+            </div>
 
-              <div class="text-white flex gap-4">
-                <img src="./assets/spotify.png" alt="">
-                <p>Spotify</p>
-              </div>
-                
-              <div class="text-white flex gap-4">
-                <img src="./assets/apple-podcast.png" alt="">
-                <p>Apple podcast</p>
-              </div>
+            <div class="flex justify-center gap-6 relative top-[-230px]">
 
-              <div class="text-white flex gap-4">
-                <img src="./assets/youtube-podcast.png" alt="">
-                <p>Youtube</p>
-              </div>
+                <div class="text-white flex gap-4">
+                    <img src="./assets/spotify.png" alt="">
+                    <p>Spotify</p>
+                </div>
 
-              <div class="text-white flex gap-4">
-                <img src="./assets/twitter.png" alt="">
-                <p>Twitter</p>
-              </div>
-         </div>
+                <div class="text-white flex gap-4">
+                    <img src="./assets/apple-podcast.png" alt="">
+                    <p>Apple podcast</p>
+                </div>
 
-          <div class="text-white flex justify-center relative top-[-180px]">
+                <div class="text-white flex gap-4">
+                    <img src="./assets/youtube-podcast.png" alt="">
+                    <p>Youtube</p>
+                </div>
+
+                <div class="text-white flex gap-4">
+                    <img src="./assets/twitter.png" alt="">
+                    <p>Twitter</p>
+                </div>
+            </div>
+
+            <div class="text-white flex justify-center relative top-[-180px]">
                 <p>© 2026 TechWave Podcast. All rights reserved.</p>
-              </div>
-      </footer>
+            </div>
+        </footer>
     </main>
 </body>
 

@@ -5,23 +5,19 @@
   font-family: "Inter", sans-serif;
 }
 
-.wave{
-    border: 1px solid rgba(0, 0, 0, 1);
-     
-}
-
-.text{
+.text {
     border: 1px solid seashell;
     font-size: 48px;
 }
 
+
 .nav-btn{
     
-  background: linear-gradient(
-    90deg,
-    #ff3cac 100%,
-    #784ba0 50%,
-    #ffb347 100%
+  background: linear-gradient(135deg,
+  #6a00ff,
+  #ff2da8,
+  #ff8c00,
+  #ffd500
   );
    display: flex;
    padding: 12px 16px;
@@ -30,28 +26,72 @@
 
 
 .hero-parent {
+    max-width: 100%;
     background-image: url(./assets/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:cover;
  }
 .hero-circle {
   display: flex;
-  justify-content: center;
+ align-items: center;
+ justify-content: center;
+  position: relative;
+  top: 80px;
 
 }
+
+@keyframes moving {
+  from{
+    left: 0;
+  }
+  to{
+    left: 50px
+  }
+}
+
+
 .hero-icon {
    position: relative;
-   top: -260px;
+   top: -200px;
    right: -20px;
+   animation: moving 2s ease-in-out  infinite alternate ;
 }
 .new-btn {
     position: relative;
     width: 43px;
     height: 22px;
     border-radius: 10px;
-     top: -90px;
+     top: -60px;
      font-weight: 600;
+}
+
+.btn-listen{
+  background: linear-gradient(135deg,
+  #ffd500,
+  #ff2da8,
+  #ff8c00,
+  #6a00ff
+  );
+}
+.menu{
+  display: none;
 }
    
 
+
+/* Responsive design */
+@media screen and (max-width:576px) {
+  .hide{
+    display: none;
+  }
+ 
+  .menu{
+    padding: 10px;
+    margin-left: 20px;
+  }
+
+  .menu{
+  display: inline;
+}
+}
